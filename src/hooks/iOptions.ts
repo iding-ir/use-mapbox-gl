@@ -41,14 +41,14 @@ export const iOptions: IOptions = {
     },
   },
   styles: {
-    light: "/mapcraft/jsons/styles/light/style.json",
-    dark: "/mapcraft/jsons/styles/dark/style.json",
+    light: "/map/jsons/styles/light/style.json",
+    dark: "/map/jsons/styles/dark/style.json",
     // light: "mapbox://styles/mapbox/light-v10",
     // dark: "mapbox://styles/mapbox/dark-v10",
   },
   defaultStyle: "light",
   icons: {
-    default: "/mapcraft/images/icon-default.png",
+    default: "/map/images/icon-default.png",
   },
   defaultIcon: "default",
   geoJsons: {},
