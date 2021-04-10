@@ -1,7 +1,7 @@
 {
-  "name": "use-mapbox",
+  "name": "use-mapboxgl",
   "version": "0.1.0",
-  "description": "Jumpstarting projects with Mapbox GL JS.",
+  "description": "Jump-starting projects with Mapbox GL JS.",
   "keywords": [
     "React",
     "Mapbox",
@@ -15,10 +15,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iding-ir/use-mapbox.git"
+    "url": "git+https://github.com/iding-ir/use-mapboxgl.git"
   },
   "bugs": {
-    "url": "https://github.com/iding-ir/use-mapbox/issues"
+    "url": "https://github.com/iding-ir/use-mapboxgl/issues"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
