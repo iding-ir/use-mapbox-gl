@@ -1,7 +1,7 @@
 {
   "name": "use-mapboxgl",
   "version": "0.1.0",
-  "description": "Jump-starting projects with Mapbox GL JS.",
+  "description": "Jump-starting React projects with Mapbox GL JS.",
   "keywords": [
     "React",
     "Mapbox",
