@@ -1,6 +1,6 @@
-import { IOptions } from "./IOptions.d";
+import { Options } from "./Options.d";
 
-export const iOptions: IOptions = {
+export const iOptions: Options = {
   map: {
     container: "map",
     center: [35, 35],
@@ -16,7 +16,7 @@ export const iOptions: IOptions = {
     geolocation: true,
     navigation: true,
   },
-  colors: {
+  featureColors: {
     light: {
       primary: "#1976D2",
       secondary: "#8BC34A",

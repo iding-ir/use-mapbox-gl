@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "mapbox-gl/dist/mapbox-gl.css";
 
 import "./App.css";
 import { useMapboxGL } from "./hooks/useMapboxGL";
 
 function App() {
-  const { map, load } = useMapboxGL({
+  const { map } = useMapboxGL({
     icons: {
       cat: "/assets/images/icon-cat.png",
       dog: "/assets/images/icon-dog.png",
@@ -16,6 +16,8 @@ function App() {
       ways: "/data/ways.json",
     },
   });
+
+  console.log(map);
 
   return <div id="map"></div>;
 }

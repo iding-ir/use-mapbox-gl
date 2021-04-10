@@ -1,13 +1,13 @@
-export interface IOptions {
+export interface Options {
   map: IMap;
   controls: IControls;
-  colors: {
+  featureColors: {
     dark: IColors;
     light: IColors;
   };
   mapColors: {
-    dark: IMapColors;
-    light: IMapColors;
+    dark: ImapColors;
+    light: ImapColors;
   };
   styles: {
     light: string;
@@ -72,7 +72,7 @@ export interface IColors {
   secondary: string;
 }
 
-export interface IMapColors {
+export interface ImapColors {
   background: string;
   fill: string;
   line: string;
