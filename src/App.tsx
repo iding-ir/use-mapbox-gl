@@ -4,7 +4,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import "./App.css";
 import { useMapboxGL } from "./hooks/useMapboxGL";
 
-function App() {
+const App = () => {
   const { map } = useMapboxGL({
     icons: {
       cat: "/assets/images/icon-cat.png",
@@ -20,6 +20,6 @@ function App() {
   console.log(map);
 
   return <div id="map"></div>;
-}
+};
 
 export default App;

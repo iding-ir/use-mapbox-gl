@@ -1,3 +1,5 @@
+import { LngLatLike } from "mapbox-gl";
+
 export interface Options {
   map: IMap;
   controls: IControls;
@@ -52,7 +54,7 @@ export interface Options {
 
 export interface IMap {
   container: string;
-  center: [number, number];
+  center: LngLatLike;
   zoom: number;
   minZoom: number;
   maxZoom: number;
