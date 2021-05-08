@@ -1,4 +1,4 @@
-export const extend = function() {
+export const extend = function () {
   let extended = {};
   let deep = false;
   let i = 0;
@@ -10,7 +10,7 @@ export const extend = function() {
     i++;
   }
 
-  let merge = function(obj) {
+  let merge = function (obj) {
     for (let prop in obj) {
       if (Object.prototype.hasOwnProperty.call(obj, prop)) {
         if (
